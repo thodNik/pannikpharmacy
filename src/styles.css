@@ -75,7 +75,16 @@ nav > img {
 
 /* MEDIUM DEVICES MEDIA QUERIES */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
+  .nav {
+    padding: 0;
+  }
+
+  .p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   nav > img {
     margin-left: 20px;
   }
@@ -144,6 +153,11 @@ nav > img {
   .carousel {
     display: none;
   }
+
+  .heading > p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 
 /* =======================================FOOTER STYLE========================================= */
@@ -207,18 +221,20 @@ nav > img {
 
 /* MEDIUM DEVICES MEDIA QUERIES */
 
-@media screen and (max-width: 1024px) {
-  .right > .shift {
-    width: inherit;
-  }
-}
-
-/* SMALL DEVICES MEDIA QUERIES */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1400px) {
   .foot {
     width: inherit;
   }
+
+  .right > .shift {
+    width: initial;
+  }
+
+  .heading > p {
+    text-align: justify;
+  }
 }
+
 
 /* =======================================PHARMACY STYLE========================================= */
 
@@ -254,6 +270,12 @@ nav > img {
 
 /* MEDIUM DEVICES MEDIA QUERIES */
 
+@media screen and (max-width: 1400px) {
+  .pharmacy {
+    width: max-content;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .img {
     margin-top: 60px;
@@ -269,7 +291,7 @@ nav > img {
   }
 
   .text {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 40px;
   }
 }
@@ -280,7 +302,7 @@ nav > img {
     margin: 150px auto 25px auto;
   }
   .pharmacy {
-    width: inherit;
+    width: fit-content;
   }
 }
 
@@ -411,14 +433,22 @@ li > h4 {
 
 /* MEDIUM DEVICES MEDIA QUERIES */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
   .top-container {
     width: 650px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .top-container {
     margin-left: 0px;
+    padding-left: 15px;
   }
 
   .posts-container {
     width: inherit;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -464,19 +494,19 @@ li > h4 {
 @media screen and (max-width: 600px) {
   #post {
     width: inherit;
-    text-align: center;
+    text-align: justify;
   }
 }
 
-
 /* =======================================TERMS STYLE========================================= */
 
-#terms{
+#terms {
   width: 50%;
   margin: 250px auto 100px auto;
 }
 
-#terms > h1,h5 {
+#terms > h1,
+h5 {
   color: darkturquoise;
   margin-bottom: 40px;
   margin-top: 40px;
@@ -489,12 +519,12 @@ li > h4 {
 @media screen and (max-width: 1024px) {
   #terms {
     width: inherit;
-    text-align: center; 
+    text-align: center;
   }
 
-  #terms > h1,h5 {
+  #terms > h1,
+  h5 {
     width: fit-content;
     text-align: left;
   }
 }
-

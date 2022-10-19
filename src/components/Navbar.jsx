@@ -5,7 +5,7 @@ import { MdMail } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <nav class="nav navbar-dark navbar-expand-lg">
+    <nav class="nav navbar-dark navbar-expand-xxl">
     <img src={icon} alt="logo" style={{ width: "50px" }}></img>
       
       <a class="nav-link logo-link" href="/">
