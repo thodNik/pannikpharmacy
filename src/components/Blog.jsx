@@ -7,7 +7,7 @@ const Blog = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/getPosts").then((response) => {
+    axios.get("https://pharmacyserverpannik.herokuapp.com/getPosts").then((response) => {
       setPosts(response.data);
     });
   }, []);
