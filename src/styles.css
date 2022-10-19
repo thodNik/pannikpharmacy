@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&display=swap");
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #f9f7f7;
+}
+
+/* =======================================NAVBAR STYLE========================================= */
+
+.nav {
+  position: fixed;
+  background-color: #52616b;
+  font-size: 20px;
+  align-items: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.nav-link {
+  color: #dbe2ef;
+  font-weight: 200;
+}
+
+.nav-link:hover {
+  color: darkturquoise;
+}
+
+.name-logo {
+  font-weight: 300;
+  color: #dbe2ef;
+}
+
+.logo-link {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  line-height: 0.9;
+}
+
+nav > img {
+  margin-left: 250px;
+  border-radius: 12px;
+}
+
+.farm {
+  font-size: 13px;
+}
+
+.pharm {
+  font-weight: 400;
+}
+
+.info {
+  padding-right: 200px;
+  font-weight: 200;
+}
+
+.info > li {
+  font-size: 17px;
+  padding: 10px;
+}
+
+.s-text {
+  margin-left: 8px;
+  color: #dbe2ef;
+  text-decoration: none;
+}
+
+.s-text:hover {
+  color: darkturquoise;
+}
+
+/* MEDIUM DEVICES MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  nav > img {
+    margin-left: 20px;
+  }
+}
+
+/* SMALL DEVICES MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .info {
+    width: max-content;
+  }
+}
+
+/* =======================================HOME STYLE========================================= */
+
+/* CAROUSEL STYLE */
+
+.carousel-item {
+  position: relative;
+  height: 35rem;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+/* HEADER STYLE */
+
+.heading {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.animation {
+  color: darkturquoise;
+  line-height: 1;
+}
+
+.heading > p {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/* MEDIUM DEVICES MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .heading > p {
+    text-align: center;
+  }
+
+  .heading {
+    width: inherit;
+  }
+}
+
+/* SMALL DEVICES MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .carousel {
+    display: none;
+  }
+}
+
+/* =======================================FOOTER STYLE========================================= */
+
+#footer {
+  background-color: #52616b;
+  color: #dbe2ef;
+  text-align: center;
+  font-weight: 200;
+}
+
+.foot {
+  width: 50%;
+}
+
+.left,
+.right {
+  line-height: 0.9;
+  margin-top: 30px;
+}
+
+.left > h4 {
+  border-bottom: 1px solid #dbe2ef;
+  width: fit-content;
+  margin: auto;
+}
+
+.shift {
+  margin-top: 10px;
+}
+
+.right > h4 {
+  border-bottom: 1px solid #dbe2ef;
+  width: fit-content;
+  margin: auto;
+}
+
+.right > .shift {
+  width: max-content;
+}
+
+.author {
+  opacity: 0.3;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  border-radius: 50%;
+}
+
+.terms {
+  text-decoration: none;
+  color: #dbe2ef;
+}
+
+.terms:hover {
+  color: darkturquoise;
+}
+
+/* MEDIUM DEVICES MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .right > .shift {
+    width: inherit;
+  }
+}
+
+/* SMALL DEVICES MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .foot {
+    width: inherit;
+  }
+}
+
+/* =======================================PHARMACY STYLE========================================= */
+
+.pharmacy {
+  width: 60%;
+}
+
+.container > h3 {
+  margin-top: 150px;
+  color: darkturquoise;
+  border-bottom: 2px solid darkturquoise;
+  width: fit-content;
+  margin-bottom: 25px;
+}
+
+.text {
+  margin-top: 40px;
+}
+
+.pic {
+  text-align: end;
+}
+
+.pic1 {
+  text-align: left;
+}
+
+.img {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 60px;
+}
+
+/* MEDIUM DEVICES MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .img {
+    margin-top: 60px;
+    width: fit-content;
+  }
+
+  .pic1 {
+    display: none;
+  }
+
+  .pic {
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+/* SMALL DEVICES MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .container > h3 {
+    margin: 150px auto 25px auto;
+  }
+  .pharmacy {
+    width: inherit;
+  }
+}
+
+/* =======================================NEWSLETTER STYLE========================================= */
+
+#newsletter {
+  height: 100%;
+  margin-top: 210px;
+  margin-bottom: 235px;
+  text-align: center;
+  color: darkturquoise;
+}
+
+main {
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.middle {
+  border-radius: 0;
+}
+
+.form-control:focus {
+  border-color: darkturquoise;
+}
+
+#newsletter > img {
+  border-radius: 17px;
+  box-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  background-color: darkturquoise;
+  border: darkturquoise;
+  color: white;
+  --bs-btn-hover-bg: #52616b;
+  --bs-btn-active-bg: #52616b;
+  margin-top: 8px;
+}
+
+/* =======================================BLOG STYLE========================================= */
+
+.top-container {
+  width: 36%;
+  margin-left: 250px;
+}
+
+.top-container > h3 {
+  margin-top: 150px;
+  color: darkturquoise;
+  border-bottom: 2px solid darkturquoise;
+  width: fit-content;
+  margin-bottom: 25px;
+}
+
+.panpic {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+}
+
+.posts-container {
+  width: 60%;
+  margin: 100px auto auto auto;
+}
+
+.posts-list {
+  padding-left: 0;
+  margin-bottom: 100px;
+}
+
+.posts-list > li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.top-hr {
+  width: 20%;
+  color: #52616b;
+  border-width: 2px;
+  margin: auto;
+}
+
+.bot-hr {
+  width: 50%;
+  color: #52616b;
+  border-width: 2px;
+  margin: 10px auto 40px auto;
+}
+
+li > h4 {
+  color: darkturquoise;
+  border-bottom: 2px solid darkturquoise;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.more {
+  text-decoration: none;
+  color: darkturquoise;
+}
+
+.more:hover {
+  color: #52616b;
+}
+
+/* MEDIUM DEVICES MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .top-container {
+    width: 650px;
+    margin-left: 0px;
+  }
+
+  .posts-container {
+    width: inherit;
+  }
+}
+
+/* SMALL DEVICES MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  .top-container {
+    width: inherit;
+  }
+}
+
+/* =======================================POSTAREA STYLE========================================= */
+
+#compose {
+  margin-top: 250px;
+  padding-left: 140px;
+  padding-right: 140px;
+  margin-bottom: 150px;
+  color: darkturquoise;
+}
+
+/* =======================================POST STYLE========================================= */
+
+#post {
+  width: 50%;
+  margin: 250px auto 100px auto;
+}
+
+#post > h2 {
+  color: darkturquoise;
+  border-bottom: 2px solid darkturquoise;
+  width: fit-content;
+  margin: auto auto 60px auto;
+}
+
+.post-content {
+  white-space: pre-wrap;
+  white-space: pre-line;
+}
+
+/* SMALL DEVICES MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  #post {
+    width: inherit;
+    text-align: center;
+  }
+}
+
+
+/* =======================================TERMS STYLE========================================= */
+
+#terms{
+  width: 50%;
+  margin: 250px auto 100px auto;
+}
+
+#terms > h1,h5 {
+  color: darkturquoise;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-bottom: 2px solid darkturquoise;
+  width: max-content;
+}
+
+/* MEDIUM DEVICES MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  #terms {
+    width: inherit;
+    text-align: center; 
+  }
+
+  #terms > h1,h5 {
+    width: fit-content;
+    text-align: left;
+  }
+}
+
