@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 left">
             <h4>Είμαστε Ανοιχτά</h4>
-            <p className="shift">Δευτέρα - Παρασκευή : 09:00 - 21:00</p>
+            <p className="shift">Δευτέρα - Παρασκευή : 08:00 - 21:00</p>
             <p>Σάββατο : 09:30 - 15:00</p>
             <a className="terms" href="/terms">Προστασία προσωπικών δεδομένων</a>
           </div>
