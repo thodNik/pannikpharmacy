@@ -1,0 +1,90 @@
+.nav {
+    position: fixed;
+    background-color: var(--color-navbar);
+    font-size: 20px;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  
+  .nav-link {
+    color: var(--color-text);
+    font-weight: 200;
+  }
+  
+  .nav-link:hover {
+    color: var(--color-main);
+  }
+  
+  .name-logo {
+    font-weight: 300;
+    color: var(--color-text);
+  }
+  
+  .logo-link {
+    padding-top: 15px;
+    padding-bottom: 0px;
+    line-height: 0.9;
+  }
+  
+  nav > img {
+    margin-left: 250px;
+    border-radius: 12px;
+  }
+  
+  .farm {
+    font-size: 13px;
+  }
+  
+  .pharm {
+    font-weight: 400;
+  }
+  
+  .info {
+    padding-right: 200px;
+    font-weight: 200;
+  }
+  
+  .info > li {
+    font-size: 17px;
+    padding: 10px;
+  }
+  
+  .s-text {
+    margin-left: 8px;
+    color: var(--color-text);
+    text-decoration: none; 
+  }
+
+  .s-text:hover {
+    color: var(--color-main);
+  }
+
+  /* MEDIUM DEVICES MEDIA QUERIES */
+  
+  @media screen and (max-width: 1400px) {
+    .nav {
+      padding: 0;
+    }
+  
+    .p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  
+    nav > img {
+      margin-left: 20px;
+    }
+  }
+  
+  /* SMALL DEVICES MEDIA QUERIES */
+  @media screen and (max-width: 600px) {
+    .info {
+      width: max-content;
+    }
+  }
+  

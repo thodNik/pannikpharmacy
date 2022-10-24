@@ -1,0 +1,68 @@
+.pharmacy {
+    width: 60%;
+  }
+  
+  .container > h3 {
+    margin-top: 150px;
+    color: var(--color-main);
+    border-bottom: 2px solid var(--color-main);
+    width: fit-content;
+    margin-bottom: 25px;
+  }
+  
+  .text {
+    margin-top: 40px;
+  }
+  
+  .pic {
+    text-align: end;
+  }
+  
+  .pic1 {
+    text-align: left;
+  }
+  
+  .img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 60px;
+  }
+  
+  /* MEDIUM DEVICES MEDIA QUERIES */
+  
+  @media screen and (max-width: 1400px) {
+    .pharmacy {
+      width: max-content;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .img {
+      margin-top: 60px;
+      width: fit-content;
+    }
+  
+    .pic1 {
+      display: none;
+    }
+  
+    .pic {
+      text-align: center;
+    }
+  
+    .text {
+      text-align: justify;
+      margin-bottom: 40px;
+    }
+  }
+  
+  /* SMALL DEVICES MEDIA QUERIES */
+  @media screen and (max-width: 600px) {
+    .container > h3 {
+      margin: 150px auto 25px auto;
+    }
+    .pharmacy {
+      width: fit-content;
+    }
+  }
+  

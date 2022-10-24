@@ -1,0 +1,29 @@
+#terms {
+    width: 50%;
+    margin: 250px auto 100px auto;
+  }
+  
+  #terms > h1,
+  h5 {
+    color: var(--color-main);
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-bottom: 2px solid var(--color-main);
+    width: max-content;
+  }
+  
+  /* MEDIUM DEVICES MEDIA QUERIES */
+  
+  @media screen and (max-width: 1024px) {
+    #terms {
+      width: inherit;
+      text-align: center;
+    }
+  
+    #terms > h1,
+    h5 {
+      width: fit-content;
+      text-align: left;
+    }
+  }
+  

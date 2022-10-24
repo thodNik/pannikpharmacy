@@ -1,0 +1,26 @@
+#post {
+    width: 50%;
+    margin: 250px auto 100px auto;
+  }
+  
+  #post > h2 {
+    color: var(--color-main);
+    border-bottom: 2px solid var(--color-main);
+    width: fit-content;
+    margin: auto auto 60px auto;
+  }
+  
+  .post-content {
+    white-space: pre-wrap;
+    white-space: pre-line;
+  }
+  
+  /* SMALL DEVICES MEDIA QUERIES */
+  
+  @media screen and (max-width: 600px) {
+    #post {
+      width: inherit;
+      text-align: justify;
+    }
+  }
+  

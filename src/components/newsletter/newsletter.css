@@ -1,0 +1,57 @@
+#newsletter {
+    height: 100%;
+    margin-top: 210px;
+    margin-bottom: 235px;
+    text-align: center;
+    color: var(--color-main);
+  }
+  
+  main {
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .form-signin {
+    max-width: 330px;
+    padding: 15px;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .middle {
+    border-radius: 0;
+  }
+  
+  .form-control:focus {
+    border-color: var(--color-main);
+  }
+  
+  #newsletter > img {
+    border-radius: 17px;
+    box-shadow: rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn {
+    background-color: var(--color-main);
+    border: var(--color-main);
+    color: white;
+    --bs-btn-hover-bg: var(--color-navbar);
+    --bs-btn-active-bg: var(--color-navbar);
+    margin-top: 8px;
+  }
+  
