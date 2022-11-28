@@ -10,7 +10,7 @@ const Newsletter = () => {
 
   const submitUser = () => {
     axios
-      .post("https://pharmacyserverpannik.herokuapp.com/subUsers", {
+      .post("https://tame-gold-cockatoo-slip.cyclic.app/subUsers", {
         firstName: fName,
         lastName: lName,
         yourEmail: email,

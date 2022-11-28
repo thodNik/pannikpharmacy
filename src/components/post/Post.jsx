@@ -9,9 +9,11 @@ const Post = () => {
   const path = location.pathname.split("/")[2];
 
   useEffect(() => {
-    axios.get("https://pharmacyserverpannik.herokuapp.com/posts/" + path).then((response) => {
-      setPostById(response.data);
-    });
+    axios
+      .get("https://tame-gold-cockatoo-slip.cyclic.app/posts/" + path)
+      .then((response) => {
+        setPostById(response.data);
+      });
   }, [path]);
 
   return (

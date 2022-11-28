@@ -8,7 +8,7 @@ function PostArea() {
 
   const handleClick = () => {
     axios
-      .post("https://pharmacyserverpannik.herokuapp.com/createPost", {
+      .post("https://tame-gold-cockatoo-slip.cyclic.app/createPost", {
         title: postTitle,
         content: postContent,
       })

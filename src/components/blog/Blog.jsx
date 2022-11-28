@@ -8,7 +8,7 @@ const Blog = () => {
 
   useEffect(() => {
     axios
-      .get("https://pharmacyserverpannik.herokuapp.com/getPosts")
+      .get("https://tame-gold-cockatoo-slip.cyclic.app/getPosts")
       .then((response) => {
         setPosts(response.data);
       });
